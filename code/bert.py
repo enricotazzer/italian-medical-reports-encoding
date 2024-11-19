@@ -3,7 +3,6 @@ import pandas as pd
 import wandb
 wandb.init(mode="disabled")
 from huggingface_hub import login
-login(token="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")
 from transformers import pipeline, BertForSequenceClassification, BertTokenizerFast
 from torch.utils.data import Dataset
 from torch import cuda
